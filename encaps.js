@@ -8,4 +8,10 @@ class Encaps {
     getTasks() {
         return m_task;
     }
+
+    deleteTask(task) {
+        m_task.pop(task);
+    }
 }
+
+module.exports = {Encaps};
