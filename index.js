@@ -20,6 +20,8 @@ function runApp() {
         console.log("task deleted");
     } else if(selection == 3) {
        console.log(taskManager.getTasks());
+    } else if(selection == 4) {
+        console.log("this feature is not ready yet.");
     } else {
         running = false;
     }
